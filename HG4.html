@@ -62,6 +62,14 @@
             padding-bottom: 2%
         }
 
+        hr {
+            color: black;
+            opacity: 1;
+            width: 10%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
         .stick {
             border-left: 1px solid gray;
         }
@@ -190,25 +198,6 @@
             padding: 10px;
         }
 
-        .top-menu {
-            position: fixed;
-            top: 0;
-            right: 0;
-            background: #fff;
-            box-shadow: inset 0 0 10px rgba(204, 204, 204, 0.365);
-            width: 100%;
-        }
-
-        .menu-main {
-            display: block;
-            list-style: none;
-            padding: 50px 30px;
-            margin: 0;
-            font-size: 15px;
-            text-align: right;
-            position: relative;
-        }
-
         .navbar-collapse {
             position: fixed;
             right: 0
@@ -218,7 +207,7 @@
             position: fixed;
             width: 100%;
             top: 0;
-            padding: 2%;
+            padding: 1%;
         }
 
         .navbar-light .navbar-nav .nav-link {
@@ -272,28 +261,30 @@
                 color: #fff;
             }
 
+            .pos {
+                position: fixed;
+                right: 2%;
+                top: 5%
+            }
+
             .littlemenu {
+                position: fixed;
                 background-color: black;
                 width: 100%;
                 height: 200%;
                 text-align: left;
-                padding-top: 100%;
-                padding-left: 10%;
+                top: 0;
+                left: 0;
+            }
 
+            .litmenu {
+                position: fixed;
+                padding-top: 40%;
+                padding-left: 10%
             }
 
             #color {
                 color: white
-            }
-
-            .bi-x-square-fill {
-                display: block;
-                color: aqua;
-            }
-
-            .bi {
-                display: block;
-                color: aqua;
             }
 
             .navbar-light .navbar-nav .nav-link {
@@ -301,22 +292,9 @@
             }
         }
 
-        @media only screen and (max-width:830px) {
-            .littlemenu {
-                padding-top: 110%;
-            }
-        }
-
-
-        @media only screen and (max-width:430px) {
-            .littlemenu {
-                padding-top: 120%
-            }
-        }
-
         @media only screen and (max-width:390px) {
-            .littlemenu {
-                padding-top: 140%
+            .logo {
+                width: 150px;
             }
         }
     </style>
@@ -330,11 +308,11 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <div class="cl-btn-7"></div>
+                    <span style="text-align: right;" class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse littlemenu" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="cl-btn-7 pos"></div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 litmenu">
                         <li class="nav-item">
                             <a class="nav-link active" id="color" aria-current="page" href="#">CONCEPTS</a>
                         </li>
@@ -368,7 +346,6 @@
                             <a class="nav-link active" id="color" aria-current="page" href="#">CONTACT</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -380,7 +357,7 @@
     </div>
     <div class="content">
         <h3>MEET THE TEAM</h3>
-        <h3>______</h3>
+        <hr>
         <h2>PARTNERS</h2>
     </div>
     <div class="container">
