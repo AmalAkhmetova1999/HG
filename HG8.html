@@ -69,18 +69,6 @@
             margin-bottom: 5%;
         }
 
-        .form {
-            text-align: center;
-            background-color: rgba(183, 183, 183, 0.267);
-            padding-bottom: 3%;
-            padding-top: 3%;
-        }
-
-        .submit {
-            background-color: black;
-            color: white;
-        }
-
         .presspic {
             width: 100%;
             padding: 1%;
@@ -155,10 +143,164 @@
             }
 
         }
+
+        .logo {
+
+            width: 200px;
+        }
+
+        .navbar-collapse {
+            position: fixed;
+            right: 0
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 1%;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: black
+        }
+
+        @media only screen and (max-width:992px) {
+            .cl-btn-7 {
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                position: relative;
+                z-index: 1;
+                margin: 20px auto;
+                cursor: pointer;
+            }
+
+            .cl-btn-7:before {
+                content: '+';
+                color: #337AB7;
+                position: absolute;
+                z-index: 2;
+                transform: rotate(45deg);
+                font-size: 50px;
+                line-height: 1;
+                top: -5px;
+                left: 6px;
+                transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+            }
+
+            .cl-btn-7:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                background: #337AB7;
+                z-index: 1;
+                transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+                transform: scale(0.01);
+            }
+
+            .cl-btn-7:hover:after {
+                transform: scale(1);
+            }
+
+            .cl-btn-7:hover:before {
+                transform: scale(0.8) rotate(45deg);
+                color: #fff;
+            }
+
+            .pos {
+                position: fixed;
+                right: 2%;
+                top: 5%
+            }
+
+            .littlemenu {
+                position: fixed;
+                background-color: black;
+                width: 100%;
+                height: 200%;
+                text-align: left;
+                top: 0;
+                left: 0;
+            }
+
+            .litmenu {
+                position: fixed;
+                padding-top: 40%;
+                padding-left: 10%
+            }
+
+            #color {
+                color: white
+            }
+
+            .navbar-light .navbar-nav .nav-link {
+                color: white
+            }
+        }
+
+        @media only screen and (max-width:390px) {
+            .logo {
+                width: 150px;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="EmmerRye.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="text-align: right;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse littlemenu" id="navbarSupportedContent">
+                    <div class="cl-btn-7 pos"></div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 litmenu">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">CONCEPTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">MEET THE TEAM</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" id="color" aria-expanded="false">
+                                COMMUNITY
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">PRESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="main">
         <img class="main" src="GCuCv726gZycFxatknDdac.jpg">
         <div class="row">
