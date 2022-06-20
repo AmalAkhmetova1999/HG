@@ -141,6 +141,7 @@ h4 {
     width: 100%;
     top: 0;
     padding: 1%;
+    z-index: 5;
 }
 
 .navbar-light .navbar-nav .nav-link {

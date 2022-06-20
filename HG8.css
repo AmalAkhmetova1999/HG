@@ -7,6 +7,12 @@
     border: none;
 }
 
+.play {
+    position: inherit;
+    width: 100px;
+    z-index: 1;
+}
+
 .button {
     display: inline-block;
     background-color: black;
