@@ -6,127 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        body {
-            font-family: century gothic;
-            max-width: 100%;
-        }
-
-        .footer {
-            text-align: center;
-            font-size: 13px;
-        }
-
-        li {
-            list-style: none;
-            display: inline;
-        }
-
-        h3 {
-
-            font-style: normal;
-            font-size: 27px;
-        }
-
-        p {
-            padding-top: 10px;
-            color: #000;
-            font-weight: 400;
-            font-size: 17px;
-            width: 300px;
-        }
-
-        a {
-            color: #000;
-            font-size: 20px;
-            font-weight: 500;
-
-        }
-
-        .carousel-inner {
-            margin-top: 10%;
-        }
-
-        .item {
-            margin-left: 5%;
-            margin-right: 5%;
-            text-align: center;
-
-        }
-
-        .carousel-control {
-
-            text-shadow: none;
-            filter: none;
-            background-image: none;
-            opacity: 0;
-        }
-
-        .galleryArrow {
-            position: absolute;
-            z-index: 2;
-            top: 50%;
-            bottom: 60%;
-            opacity: 1;
-            padding-left: 7%;
-            display: block;
-            color: white;
-        }
-
-        .galleryArrow1 {
-            position: absolute;
-            z-index: 2;
-            top: 50%;
-            bottom: 60%;
-            opacity: 1;
-            padding-left: 90%;
-            display: block;
-            color: white;
-        }
-
-
-
-        .glyphicon-chevron-left {
-            color: white
-        }
-
-        .content {
-            color: black;
-            letter-spacing: .1em;
-            text-align: center;
-            line-height: 1.6;
-            max-width: 67%;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 2%;
-
-        }
-
-        .concepts {
-            max-width: 85%;
-            text-align: left;
-            padding-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        .size {
-            width: 60%;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: black;
-            color: white;
-            font-size: 14px;
-            margin-bottom: 5%;
-            padding: 5px 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="HG_CSS.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="EmmerRye.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="text-align: right;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse littlemenu" id="navbarSupportedContent">
+                    <div class="cl-btn-7 pos"></div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 litmenu">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">CONCEPTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">MEET THE TEAM</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" id="color" aria-expanded="false">
+                                COMMUNITY
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">PRESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="color" aria-current="page" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
