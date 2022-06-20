@@ -1,0 +1,94 @@
+.carousel-inner {
+    margin-top: 10%;
+}
+
+.item {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+
+.carousel-control {
+
+    text-shadow: none;
+    filter: none;
+    background-image: none;
+    opacity: 0;
+}
+
+.galleryArrow {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    bottom: 60%;
+    opacity: 1;
+    padding-left: 7%;
+    display: block;
+    color: white;
+}
+
+.galleryArrow1 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    bottom: 60%;
+    opacity: 1;
+    padding-left: 90%;
+    display: block;
+    color: white;
+}
+
+.glyphicon-chevron-left {
+    color: white;
+}
+.glyphicon-chevron-right{
+    color: white
+}
+
+
+.content {
+    color: black;
+    letter-spacing: .1em;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+
+}
+
+.concepts {
+    max-width: 85%;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.size {
+    width: 60%;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5%;
+    padding: 5px 20px;
+}
+
+.hg3 {
+    text-align: left;
+}
+.col-lg-4{width: 30%;}
+
+@media only screen and (max-width:900px) {
+        
+        .col-lg-4{width: 50%;}
+    
+
+}

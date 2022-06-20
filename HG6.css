@@ -1,0 +1,26 @@
+.pic {
+    width: 330px;
+    height: 190px;
+    margin-bottom: 5%;
+}
+
+.form {
+    text-align: center;
+    background-color: rgba(183, 183, 183, 0.267);
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width:780px) {
+    .pic {
+        width: 250px;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+}

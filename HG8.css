@@ -1,0 +1,65 @@
+.video {
+    position: relative;
+    top: -500%;
+    max-width: 100%;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5%;
+    padding: 5px 20px;
+}
+
+.hg8 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .video {
+        top: -450%;
+    }
+
+}
+
+@media only screen and (max-width:860px) {
+    .video {
+        top: -350%;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .video {
+        top: -300%;
+    }
+
+}
+
+@media only screen and (max-width:580px) {
+    .video {
+        top: -250%;
+    }
+
+}
+
+@media only screen and (max-width:460px) {
+    .video {
+        top: -220%;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+    .video {
+        top: -200%;
+    }
+
+}

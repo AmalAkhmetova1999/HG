@@ -1,0 +1,12 @@
+.col-lg-6 {
+
+    text-align: left
+}
+
+.col-lg-5 {
+    text-align: center
+}
+
+.line {
+    border-bottom: 1px solid rgb(189, 184, 184);
+}
