@@ -1,6 +1,6 @@
 .pic {
-    width: 330px;
-    height: 190px;
+    width: 430px;
+    height: 250px;
     margin-bottom: 5%;
 }
 
@@ -19,8 +19,8 @@
 
 @media only screen and (max-width:780px) {
     .pic {
-        width: 250px;
-        height: 150px;
+        width: 290px;
+        height: 190px;
         margin-bottom: 5%;
     }
 }
