@@ -55,6 +55,30 @@ p {
     font-size: 17px
 }
 
+.mainlogo {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.img1 {
+    width: 150px;
+    margin-top: 5%;
+    max-width: 90%;
+    height: auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.lightbox {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .main {
     max-width: 95%;
     margin-top: 7%;
