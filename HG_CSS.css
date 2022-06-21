@@ -114,13 +114,6 @@ a {
 
 header {margin-bottom: 12%;}
 
-h4 {
-    color: black;
-    font-size: 17px;
-    margin-top: 5%;
-    text-align: left
-}
-
 .container {
     display: flex;
     padding: 10px;
