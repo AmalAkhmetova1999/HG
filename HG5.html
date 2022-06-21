@@ -59,11 +59,11 @@
 
     </header>
     <div class="main">
-        <img class="main" src="community.jpg">
+        <img class="main" src="community.jpg" id="log">
     </div>
     <div class="content">
         <h3>COMMUNITY</h3>
-        <hr>
+        <hr id="block">
     </div>
     <div class="row line">
         <div class="col-lg-5">
@@ -127,6 +127,10 @@
     function closeModal() {
         $('#navbarSupportedContent').hide();
     }
+    $("#block").fadeIn(3000);
+    $('#log').animate({
+        opacity: '1',
+    })
 </script>
 
 </html>

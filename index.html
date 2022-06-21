@@ -58,7 +58,7 @@
 
     </header>
     <div class="mainlogo">
-        <img class="img1" src="mainlogo.png" alt="mainlogo">
+        <img class="img1" id="logo" src="mainlogo.png" alt="mainlogo">
     </div>
     <div class="content">
         <h3>EMMER & RYE HOSPITALITY GROUP</h3>
@@ -120,6 +120,10 @@
     function closeModal() {
         $('#navbarSupportedContent').hide();
     }
+    $('#logo').animate({
+        opacity: '1',
+        width: '200px'
+    });
 </script>
 
 </html>

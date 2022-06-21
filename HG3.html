@@ -62,7 +62,7 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="EventsHeader.jpg" class="d-block w-100" alt="emmerandrye">
+                <img src="EventsHeader.jpg" class="d-block w-100" alt="emmerandrye" id="log">
             </div>
             <div class="carousel-item">
                 <img src="HestiaConcept.jpg" class="d-block w-100" alt="emmerandrye">
@@ -93,7 +93,7 @@
     </div>
     <div class="content">
         <h3>CONCEPTS</h3>
-        <hr>
+        <hr id="block">
     </div>
     <div class="concepts">
         <div class="row">
@@ -259,6 +259,10 @@
     function closeModal() {
         $('#navbarSupportedContent').hide();
     }
+    $("#block").fadeIn(3000);
+    $('#log').animate({
+        opacity: '1',
+    })
 </script>
 
 </html>

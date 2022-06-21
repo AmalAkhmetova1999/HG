@@ -59,11 +59,11 @@
 
     </header>
     <div class="main">
-        <img class="main" src="contact.jpg">
+        <img class="main" src="contact.jpg" id="log">
     </div>
     <div class="content">
         <h3>CONTACT</h3>
-        <hr>
+        <hr id="block">
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -119,6 +119,10 @@
     function closeModal() {
         $('#navbarSupportedContent').hide();
     }
+    $("#block").fadeIn(3000);
+    $('#log').animate({
+        opacity: '1',
+    })
 </script>
 
 </html>
