@@ -100,6 +100,13 @@ hr {
     margin-right: auto;
 }
 
+.pos {
+    position: fixed;
+    right: 2%;
+    top: 5%;
+    display: none
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -112,7 +119,9 @@ a {
     width: 200px;
 }
 
-header {margin-bottom: 12%;}
+header {
+    margin-bottom: 12%;
+}
 
 .container {
     display: flex;
@@ -146,16 +155,17 @@ header {margin-bottom: 12%;}
     .cl-btn-7 {
         width: 40px;
         height: 40px;
-        border-radius: 40px;
         position: relative;
         z-index: 1;
         margin: 20px auto;
         cursor: pointer;
+        color: white;
+        background-color: black;
     }
 
     .cl-btn-7:before {
         content: '+';
-        color: #337AB7;
+        color: white;
         position: absolute;
         z-index: 2;
         transform: rotate(45deg);
@@ -173,8 +183,8 @@ header {margin-bottom: 12%;}
         left: 0;
         width: 100%;
         height: 100%;
-        border-radius: 100%;
-        background: #337AB7;
+
+        background: black;
         z-index: 1;
         transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
         transform: scale(0.01);
@@ -192,7 +202,8 @@ header {margin-bottom: 12%;}
     .pos {
         position: fixed;
         right: 2%;
-        top: 5%
+        top: 5%;
+        display: block;
     }
 
     .littlemenu {
@@ -231,16 +242,19 @@ header {margin-bottom: 12%;}
         margin-bottom: 15%;
     }
 }
+
 @media only screen and (max-width:700px) {
     header {
         margin-bottom: 20%;
     }
 }
+
 @media only screen and (max-width:500px) {
     header {
         margin-bottom: 25%;
     }
 }
+
 @media only screen and (max-width:350px) {
     header {
         margin-bottom: 30%;
