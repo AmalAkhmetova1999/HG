@@ -91,6 +91,7 @@ p {
     margin-top: 5%;
 }
 
+
 #log {
     opacity: 0.6;
 }
@@ -232,6 +233,10 @@ header {
     .cl-btn-7:hover:before {
         transform: scale(0.8) rotate(45deg);
         color: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: white
     }
 
     .pos {
