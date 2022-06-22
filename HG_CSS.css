@@ -204,6 +204,7 @@ header {
         cursor: pointer;
         color: white;
         background-color: black;
+        border: black;
     }
 
     .cl-btn-7:before {

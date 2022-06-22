@@ -128,11 +128,11 @@
         </label><br>
         <input type="email" id="email" name="email" required><br><br>
         <label for="tel">Phone Number</label>
-        <input type="tel" id="tel" name="tel" required>
+        <input type="tel" id="tel" name="tel">
         <label for="Ext">Ext</label>
-        <input type="text" id="Ext" name="Ext" required><br><br>
+        <input type="text" id="Ext" name="Ext"><br><br>
         <label for="company">Company</label>
-        <input type="text" id="company" name="company" required><br><br>
+        <input type="text" id="company" name="company"><br><br>
         <p>Select your desired event style</p>
         <select name="list1">
             <label for="eventstyle">Event Style</label>
@@ -143,7 +143,7 @@
         </select><br><br>
         <p>Your Event Details</p>
         <label for="nature">Nature of this Event(e.g., Birthday Party or Business Dinner)</label><br>
-        <input type="text" id="nature" name="nature" required><br><br>
+        <input type="text" id="nature" name="nature"><br><br>
         <p>Location * (Please Select One)</p>
         <select name="list1">
             <label for="location">Location</label>
@@ -157,15 +157,15 @@
         <label for="date">Event Date
             <span class="required" aria-hidden="true">*</span>
         </label><br>
-        <input type="date" id="date" name="event date" min="2022-06-01" max="2032-12-31"><br><br>
+        <input type="date" id="date" name="event date" min="2022-06-01" max="2032-12-31" required><br><br>
         <label for="appt">Start Time</label>
-        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00">
         <label for="appt">End Time</label>
-        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required><br><br>
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00"><br><br>
         <label for="people">Number of People
             <span class="required" aria-hidden="true">*</span>
         </label>
-        <input type="number" id="people" name="people" min="1" max="1000000"><br><br>
+        <input type="number" id="people" name="people" min="1" max="1000000" required><br><br>
         <label for="addition">Is there any additional information you would like to add?</label><br>
         <textarea id="addition" name="addition" rows="5" cols="50">
 </textarea><br>
