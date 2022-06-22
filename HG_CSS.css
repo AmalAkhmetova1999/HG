@@ -162,6 +162,7 @@ header {
 .conceptbtn {
     color: white;
 }
+
 .conceptbtn:hover {
     color: white;
 }
@@ -257,7 +258,7 @@ header {
     .littlemenu {
         position: fixed;
         background-color: black;
-        width: 100%;
+        width: 200%;
         height: 200%;
         text-align: left;
         top: 0;
@@ -266,7 +267,7 @@ header {
 
     .litmenu {
         position: fixed;
-        padding-top: 40%;
+        padding-top: 20%;
         padding-left: 10%
     }
 
