@@ -158,7 +158,14 @@ a {
 header {
     margin-bottom: 12%;
 }
-.henbit {}
+
+.conceptbtn {
+    color: white;
+}
+.conceptbtn:hover {
+    color: white;
+}
+
 .container {
     display: flex;
     padding: 10px;
