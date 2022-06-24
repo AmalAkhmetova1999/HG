@@ -257,8 +257,8 @@ header {
     .littlemenu {
         position: absolute;
         background-color: black;
-        width: 250%;
-        height: 250%;
+        width: 300%;
+        height: 500%;
         text-align: left;
         top: 0;
         left: 0;
